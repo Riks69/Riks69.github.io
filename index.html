@@ -1,7 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koeravideo</title>
+    <link rel="stylesheet" href="RRRiko.css"> <!-- Seome CSS faili -->
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container">
+        <h1>Cool dog (Vilisalu)!</h1>
+        <div id="video-container">
+            <video id="dog-video" width="600" controls>
+                <source id="video-source" src="" type="video/mp4">
+                Teie brauser ei toeta videote esitamist.
+            </video>
+        </div>
+        <div id="image-container"></div> <!-- Koera piltide kuvamine, kui video ei leita -->
+    </div>
+    
+    <script src="RRiko.js"></script> <!-- Seome JavaScript faili -->
 </body>
 </html>

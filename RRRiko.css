@@ -1,0 +1,37 @@
+/* Üldine stiil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Kasti paigutus */
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Pealkiri */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Video konteiner */
+#video-container {
+    margin-top: 20px;
+}
+
+/* Video stiilimine */
+video {
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
